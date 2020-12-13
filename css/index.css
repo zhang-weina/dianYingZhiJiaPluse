@@ -54,7 +54,7 @@
 	width: 50px;
 	height: 42px;
 	border: 1px solid #df9911;
-	background: #df9911 url(images/fa-search.png) no-repeat center center;
+	background: #df9911 url(../images/fa-search.png) no-repeat center center;
 }
 .banner{
 	width: 100%;
@@ -68,7 +68,7 @@
 	width: 1200px;
 	height: 515px;
 	margin: 0 auto;
-	background: url('images/banner.png') no-repeat center;
+	background: url('../images/banner.png') no-repeat center;
 	position: relative;
 }
 .text{
@@ -315,7 +315,7 @@
 .btn {
     width: 75px;
     height: 22px;
-    background: url(images/sanjiao.png) no-repeat right center;
+    background: url(../images/sanjiao.png) no-repeat right center;
     float: right;
     margin: 10px;
 }
