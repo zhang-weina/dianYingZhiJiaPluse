@@ -1,0 +1,55 @@
+form {
+    display: inline-block;
+}
+
+.name,
+.set-passwoed {
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(88, 88, 88);
+}
+
+input {
+    outline-style: none;
+    border: 1px;
+    width: 180px;
+    height: 40px;
+}
+
+#username,
+#pw {
+    border: 1px solid gray;
+    height: 50px;
+    width: 300px;
+}
+
+#pw {
+    margin-top: 30px;
+}
+
+#sub {
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    background-color: #3c0e0e;
+    color: white;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+li {
+    color: #3c0e0e;
+    padding-top: 50px;
+}
+
+.li1 {
+    padding-top: 0px;
+}
