@@ -26,7 +26,7 @@
 .nav li a:hover{
 	color:#df9911;
 }
-.login a{
+.login #Blogin{
 	font-size:14px;
 	font-weight:400;
 	color:#000;
@@ -69,6 +69,7 @@
 	height: 515px;
 	margin: 0 auto;
 	background: url('../images/banner.png') no-repeat center;
+	position: relative;
 }
 .text{
 	display: inline-block;
@@ -346,5 +347,58 @@
 	width:600px;
 	height:800px;
 }
+#formDiv{
+	position: absolute;
+	width:310px;
+	height:220px;
+	top:100px;
+	left:450px;
+	background-color: white;
+}
+#form {
+	margin-top: 5px;
+	margin-left: 5px;
+    display: inline-block;
+}
 
+.name,
+.set-passwoed {
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(88, 88, 88);
+}
+#username input {
+    outline-style: none;
+    border: 1px;
+    width: 180px;
+    height: 40px;
+}
+#pw input{
+    outline-style: none;
+    border: 1px;
+    width: 180px;
+    height: 40px;
+}
+
+#username,
+#pw {
+    border: 1px solid gray;
+    height: 50px;
+    width: 300px;
+}
+
+#pw {
+    margin-top: 30px;
+}
+
+#sub {
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    background-color: #df9911;
+    color: white;
+}
 	
