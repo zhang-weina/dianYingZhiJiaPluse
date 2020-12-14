@@ -9,13 +9,38 @@ var timeId = setInterval(function () {
     }
 }, 10)
 
-//跳转到注册页面
+//点击注册账户跳转到注册页面
 var login = document.getElementById("Blogin");
 login.onclick = function () {
     window.open("demo1.html");
 }
 
-//点击列表时  修改标题名字
+//banner列表滑上，显示不同列表
+var list = document.getElementById("list");
+var liList = list.getElementsByTagName("li");
+var listTwo = document.getElementById("listTwo");
+var liListTwo = listTwo.getElementsByTagName("li");
+var arr = [];
+for (var i = 0; i < liListTwo.length; i++) {
+    arr.push(liListTwo[i].innerHTML);
+}
+for (var i = 0; i < liList.length; i++) {
+    liList[i].onmouseover = function () {
+        this.style.color = "yellow";
+        liListTwo[0].innerHTML = this.innerHTML + "概要";
+        for (var j = 1; j < liListTwo.length; j++) {
+            liListTwo[j].innerHTML = this.innerHTML + j + "名称";
+        }
+    }
+    liList[i].onmouseout = function () {
+        this.style.color = "white";
+        for (var j = 0; j < liListTwo.length; j++) {
+            liListTwo[j].innerHTML = arr[j];
+        }
+    }
+}
+
+//banner图下方点击列表时  修改下方标题名字
 var title = document.getElementById("title");
 var subul = document.getElementById("subul");
 var liList = subul.getElementsByTagName("li");
@@ -30,7 +55,7 @@ for (var i = 0; i < liList.length; i++) {
 var pic = document.getElementById("pic");
 var picList = pic.getElementsByTagName("img");
 var txt = document.getElementById("txt");
-var comment = ["差", "一般", "中等", "还行", "好"];
+var comment = ["差", "一般", "中等", "较好", "好"];
 var flag = true;
 for (var i = 0; i < picList.length; i++) {
     picList[i].onmouseover = function () {

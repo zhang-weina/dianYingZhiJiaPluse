@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/nomalize.css">
-	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="./css/nomalize.css">
+	<link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
 	<div class="head clear">
-		<h1 class="logo">电影之家</h1>	
+		<h1 class="logo">电影之家</h1>
 		<ul class="nav">
 			<li><a href="">电影</a></li>
 			<li><a href="">电视</a></li>
@@ -17,21 +19,37 @@
 		<span class="login"><a href="" id="Blogin">注册账户</a></span>
 		<img src="images/login.png" alt="">
 		<form class="form clear fr">
-				<input type="button" class="submit" />
-                <input type="text" placeholder="&nbsp;&nbsp;输入关键词" class="search" />
-        </form>
+			<input type="button" class="submit" />
+			<input type="text" placeholder="&nbsp;&nbsp;输入关键词" class="search" />
+		</form>
 	</div>
 	<div class="con">
-        <div class="title" id="ti">
-            最新的电影是《加勒比海盗》&nbsp;&nbsp;&nbsp;&nbsp;评分最高的电影是《功夫熊猫》
-        </div>
-    </div>
+		<div class="title" id="ti">
+			最新的电影是《加勒比海盗》&nbsp;&nbsp;&nbsp;&nbsp;评分最高的电影是《功夫熊猫》
+		</div>
+	</div>
 	<div class="banner">
 		<div class="bg">
 			<div class="text">
-				<p>欣赏</p>
-				<p>电影节目和歌曲</p>
-				<a href="">查看更多</a>
+				<ul id="list">
+					<li>电视</li>
+					<li>电影</li>
+					<li>体育</li>
+					<li>新闻</li>
+					<li>动漫</li>
+				</ul>
+			</div>
+			<div id="listName">
+				<ul id="listTwo">
+					<li class="nameone">总览</li>
+					<li>阿甘正传</li>
+					<li>蜘蛛侠</li>
+					<li>超能陆战队</li>
+					<li>功夫熊猫</li>
+					<li>加勒比海盗</li>
+					<li>冰雪奇缘</li>
+					<li>疯狂动物城</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -85,29 +103,32 @@
 			<a href="">查看更多</a>
 		</div>
 	</div>
-	<div class="column-one clear">
-		<div id="bigImg">
-            <img src="images/0.jpg" id="bigpic" />
-        </div>
-		<div id="wrap">
-			<div id="mark">
-				<h1>电影评分</h1>
-				<div id="pic">
-					<img src="images/star0.png" title="1" name="0" />
-					<img src="images/star0.png" title="2" name="1" />
-					<img src="images/star0.png" title="3" name="2" />
-					<img src="images/star0.png" title="4" name="3" />
-					<img src="images/star0.png" title="5" name="4" />
-					<br />
+	<div class="bac">
+		<div class="column-one clear">
+			<div id="bigImg">
+				<img src="images/8.png" id="bigpic" />
+			</div>
+			<div id="wrap">
+				<div id="mark">
+					<h1>电影评分</h1>
+					<div id="pic">
+						<img src="images/star0.png" title="1" name="0" />
+						<img src="images/star0.png" title="2" name="1" />
+						<img src="images/star0.png" title="3" name="2" />
+						<img src="images/star0.png" title="4" name="3" />
+						<img src="images/star0.png" title="5" name="4" />
+						<br />
+					</div>
+					<form>
+						<textarea cols="40" rows="8" value="" id='txt'></textarea>
+						<br />
+						<button class="btn">公开评论</button>
+					</form>
 				</div>
-				<form>
-					<textarea cols="40" rows="8" value="" id='txt'></textarea>
-					<br />
-					<button class="btn">公开评论</button>
-				</form>
 			</div>
 		</div>
 	</div>
+
 	<div class="copyright-1">
 		<div class="copyright">
 			<div class="footer-one">
@@ -124,5 +145,6 @@
 		</div>
 	</div>
 </body>
-<script src="js/index.js"></script>
+<script src="./js/index.js"></script>
+
 </html>

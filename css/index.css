@@ -69,34 +69,48 @@
 	height: 515px;
 	margin: 0 auto;
 	background: url('../images/banner.png') no-repeat center;
-	position: relative;
 }
 .text{
-	position: absolute;
-	left: 20px;
-	top: 80px;
-}
-.text p{
-	font-size: 50px;
-	font-weight: bold;
-	color: #fff;
-}
-
-.text a{
 	display: inline-block;
-	width: 150px;
-	height: 55px;
-	font-weight: bold;
-	font-size: 18px;
-	color: #fff;
+	padding-left: 20px;
+	margin-top: 60px;
+	height: 384px;
+	width:100px
+}
+.text ul li{
+	font-size: 50px;
+	padding-top: 10px;
+	color:white;
+}
+#listName{
+	display: inline-block;
+	width:300px;
+	height:400px;
+	vertical-align: top;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+#listTwo li{
+	color:white;
+	font-size: 25px;
+	padding-bottom: 10px;
 	text-align: center;
-	line-height: 55px;
-	margin-top: 130px;
-	background-color: #df9911;
+}
+#listTwo .nameone{
+	font-size: 40px;
+	color:yellowgreen;
+}
+.bac{
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+	background-color: #3c0e0e;
+	border-bottom: 2px solid #fff;
+	margin-top: 10px;
 }
 .column-one{
 	width: 1400px;
-	height: 500px;
+	height: 800px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -280,11 +294,10 @@
 }
 #wrap {
     width: 485px;
-	margin-left: 800px;
 	display: inline-block;
 	position: absolute;
 	top:100px;
-	right:0;
+	right:40px;
 }
 
 #mark {
@@ -292,24 +305,33 @@
 }
 
 #mark h1 {
-    height: 29px;
+    height: 35px;
     background: url(../images/bg.jpg);
     font-family: "黑体";
-    font-size: 20px;
-    color: #666;
+	font-size: 30px;
+	line-height: 35px;
+	color: #DF9911;	
     line-height: 29px;
 	text-align: center;
     letter-spacing: 2px;
 }
 
 #pic {
-    margin: 10px 0px;
+	margin: 10px 0px;
+}
+#pic img{
+	width:50px;
+	height:50px
 }
 
 #txt {
     width: 100%;
-    height: 250px;
-    margin: 0px auto;
+    height: 500px;
+	margin: 0px auto;
+	font-size: 35px;
+	background-color: #3c0e0e;
+	color: white;
+	border:1px solid white;
 }
 
 .btn {
@@ -317,11 +339,12 @@
     height: 22px;
     background: url(../images/sanjiao.png) no-repeat right center;
     float: right;
-    margin: 10px;
+	margin: 10px;
+	color: white;
 }
 #bigpic{
-	width:800px;
-	height:500px;
+	width:600px;
+	height:800px;
 }
 
 	
